@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form tesztelő</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="panel">
+      <header>
+        <div class="mark" aria-hidden="true">FT</div>
+        <div>
+          <h1>Form tesztelő</h1>
+          <p>Jelentkezési űrlap kitöltése tesztadatokkal.</p>
+        </div>
+      </header>
+
+      <button id="fillForm" type="button">Tesztadatok kitöltése</button>
+      <button id="fillAndSubmit" class="secondary" type="button">Kitöltés és küldés</button>
+
+      <label class="toggle">
+        <input id="agree" type="checkbox" checked>
+        <span>Adatkezelési checkbox bejelölése</span>
+      </label>
+
+      <p id="status" role="status" aria-live="polite"></p>
+      <footer>Készítette: Gábor Sándor</footer>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

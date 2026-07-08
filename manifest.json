@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Form tesztelő",
+  "description": "Készítette: Gábor Sándor. Egy kattintásra változatos tesztadatokkal tölti ki a jelentkezési űrlapot.",
+  "author": "Gábor Sándor",
+  "version": "1.0.0",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Form tesztelő"
+  },
+  "icons": {
+    "16": "icons/icon16.svg",
+    "48": "icons/icon48.svg",
+    "128": "icons/icon128.svg"
+  }
+}
