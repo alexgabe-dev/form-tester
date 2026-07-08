@@ -9,7 +9,7 @@ Egy egyszerű Manifest V3 Chrome extension, amely egy kattintással változatos 
 1. Nyisd meg: `chrome://extensions`
 2. Kapcsold be a `Developer mode` kapcsolót.
 3. Kattints a `Load unpacked` gombra.
-4. Válaszd ki ezt a mappát: `form-tester-extension`
+4. Válaszd ki ezt a mappát: `form-tester`
 
 ## Használat
 
